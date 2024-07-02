@@ -1,0 +1,150 @@
+
+body{
+    background-color: black;
+    background-image:url("https://cdn.shopify.com/s/files/1/0652/4771/files/moonknight_reg-Gilbey_S_1024x1024.png?v=1667226676");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.lo{
+    background-image:url("https://w0.peakpx.com/wallpaper/451/260/HD-wallpaper-moon-knight-mobile-cool.jpg");
+}
+.wa{
+    background-image:url("https://w0.peakpx.com/wallpaper/839/948/HD-wallpaper-deadpool-marvel.jpg");
+}
+.what{
+    background-image:url("https://w0.peakpx.com/wallpaper/260/4/HD-wallpaper-civil-war-avengers-captain-america-fight-iron-man-marvel.jpg");
+}
+.do{
+    background-image:url("https://w0.peakpx.com/wallpaper/933/983/HD-wallpaper-marvel-doctor-strange-in-the-multiverse-of-madness-2022.jpg");
+}
+.de{
+    background-image:url("https://w0.peakpx.com/wallpaper/130/486/HD-wallpaper-moon-knight-season-2-iphone-iphone-iphone.jpg");
+}
+.titulo{
+    display: block;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom:-10px;
+    color:red;
+    text-shadow: 2px 3px 5px rgb(0, 255, 21);
+    font-size: 45px;
+}
+h2{
+    margin-top: 7%;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: px;
+    font-size: 30px;
+    color: orangered;
+    text-shadow: 1px 2px 5px rgb(0, 255, 42);
+}
+.padre{
+    margin-top: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 55px;
+    width: 155px;
+    font-size: 30px;
+    background-color: rgb(94, 255, 0);
+    color: rgb(255, 6, 6);
+    border-radius: 5rem;
+    border: 2px solid blue;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+button:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: 1s;
+}
+a{
+    text-decoration: none;
+}
+.enlace{
+    color:rgb(0, 4, 255);
+}
+.dia{
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    body {
+        background-color: rgb(49, 42, 42);
+        background-image:url("https://w0.peakpx.com/wallpaper/990/176/HD-wallpaper-marvel-s-moon-knight.jpg");
+        background-size: contain;
+        background-position: center center;
+        background-repeat:space;
+          
+    }
+    .padre{
+        margin-top: 5%;
+    }
+    h2 {
+        margin-top: 2%;
+    }
+  
+  }
+#iron{
+    width: 80px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 280px;
+    transition: 10;
+    
+
+}
+#irondes{
+    width: 80px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 280px;
+    
+    
+
+}
+#mondes{
+    width: 100px;
+    margin-top: 200px;
+    position: absolute;
+    margin-right: 280px;
+}
+
+#mon{
+    width: 80px;
+    margin-top: 200px;
+    position: absolute;
+    margin-right: 280px;
+    
+}
+@keyframes anima{
+    from {
+        transform: translateY(0);
+        transition: 10s;
+        
+    }
+    to {
+        transform: translateY(-300px);
+        
+    }
+
+
+
+
+}
+@keyframes cambia{
+    10%{
+
+    }
+}
